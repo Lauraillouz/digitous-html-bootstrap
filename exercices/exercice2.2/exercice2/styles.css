@@ -1,0 +1,7 @@
+.row div {
+    height: 50px;
+}
+
+.row, .col-6, .col-12 {
+    margin-bottom: 20px;
+}

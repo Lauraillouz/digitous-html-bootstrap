@@ -1,0 +1,29 @@
+.color-lightgray {
+    color: lightgrey;
+}
+a {
+    text-decoration: none;
+    color: lightgrey;
+}
+.size {
+    height: 20rem;
+}
+.padding-top {
+    padding-top: 5rem;
+    padding-left: 10px;
+}
+img {
+    height: 150px;
+    width: 150px;
+    border-radius: 999px;
+}
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.margin-text {
+    margin-top: 20px;
+}
+p {
+    text-align: justify;
+}
