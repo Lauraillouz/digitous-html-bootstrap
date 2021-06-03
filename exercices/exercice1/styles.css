@@ -1,0 +1,19 @@
+/* Général */
+.row div {
+    height: 50px;
+}
+.margin-right {
+    margin-right: 10px;
+}
+.margin-left {
+    margin-left: 10px;
+}
+
+/* DIV JAUNES*/
+.row {
+    margin-bottom: 20px;
+}
+
+.flex-end {
+    align-self: flex-end;
+}
