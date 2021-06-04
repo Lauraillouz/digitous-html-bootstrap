@@ -2,8 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.css"/>
-    <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.0.1-dist/css/bootstrap.css"/>
+    <script type="text/javascript" src="bootstrap-5.0.1-dist/js/bootstrap.bundle.js"></script> 
+    <link rel="stylesheet" href="styles.css">
     <title>Bootstrap Exercice 4</title>
 </head>
 
@@ -11,16 +12,21 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Homepage</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse" id="navbarText">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Team</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Team</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Vincent</a></li>
+                            <li><a class="dropdown-item" href="#">Béatrice</a></li>
+                            <li><a class="dropdown-item" href="#">Rosita</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -30,6 +36,11 @@
         </div>
     </nav>
     <!--Fin de la barre de navigation-->
+    <div class="container">
+        <div class="alert alert-danger" role="alert">
+            Une erreur serveur est survenue. Veuillez rafraîchir la page ou réessayer plus tard.
+        </div>
+    </div>
 
     <div class="container size">
         <div class="bg-light size">
