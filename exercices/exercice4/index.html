@@ -37,9 +37,9 @@
     </nav>
     <!--Fin de la barre de navigation-->
     <div class="container">
-        <div class="alert alert-danger" role="alert">
-            Une erreur serveur est survenue. Veuillez rafraîchir la page ou réessayer plus tard.
-        </div>
+    <div class="alert alert-danger" role="alert">
+        Une erreur serveur est survenue. Veuillez rafraîchir la page ou réessayer plus tard.
+    </div>
     </div>
 
     <div class="container size">
@@ -56,16 +56,41 @@
     <!--Image + Nom-->
 
     <div class="container">
-        <div class="row align-items-start">
-            <div class="col">
+        <div class="row justify-content-center">
+            <div class="col text-center mt-5"> <!-- MODAL-->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Signup newsletter</button>
+            </div>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="input-group flex-nowrap">
+                                <span class="input-group-text" id="addon-wrapping">Email</span>
+                                <input type ="text" class="form-control" placeholder="ex : lala@land.com" aria-label="Username" aria-described="addon-wrapping">
+                            </div>
+                        </div>
+                        <div class ="modal-footer">
+                            <button type="button" class="btn btn-primary">S'inscrire</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            <!--fin MODAL-->
+        <div class="row justify-content-center">
+            <div class="col-4">
                 <h4 class="margin-text">Planification</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam nemo nisi. Sint soluta facilis maiores magni! Suscipit, totam architecto.</p>            
             </div>
-            <div class="col">
+            <div class="col-4">
                 <h4 class="margin-text">Action</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam nemo nisi. Sint soluta facilis maiores magni! Suscipit, totam architecto.</p>            
             </div>
-            <div class="col">
+            <div class="col-4">
                 <h4 class="margin-text">Analysis</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil magnam nemo nisi. Sint soluta facilis maiores magni! Suscipit, totam architecto.</p>            
             </div>
