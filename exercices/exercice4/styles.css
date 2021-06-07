@@ -15,10 +15,6 @@ img {
     border-radius: 999px;
     margin-right: 50px;
 }
-.flex {
-    display: flex;
-    justify-content: space-between;
-}
 .margin-text {
     margin-top: 20px;
 }
