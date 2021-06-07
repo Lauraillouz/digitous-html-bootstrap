@@ -9,60 +9,121 @@
 </head>
 <body>
     <div class="row">
-        <div class="container">
-            <div class="d-flex flex-column col-3 col-md-3 flex-shrink-0 p-3 text-white bg-dark">
-                <ul class="nav flex-column aria-orientation">
-                    <li class="nav-item pb-4">
-                        <a class="nav-link text-white text-decoration-none" href="#">
-                            <i class="fas fa-bolt"></i>
-                            <span>Spur</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-decoration-none active" aria-current="page" href="#">
-                            <i class="fas fa-home"></i>
-                            <span>Dashboard</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-decoration-none" href="#">
-                            <i class="fas fa-chart-bar"></i>
-                            <span>Charts</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-decoration-none" href="#">
-                            <i class="fas fa-cube"></i>
-                            <span>Components</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-decoration-none" href="#">
-                            <i class="far fa-file"></i>
-                            <span>Layouts</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white text-decoration-none" href="#">
-                            <i class="fas fa-info"></i>
-                            <span>About</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <!--SIDEBAR-->
+        <div class="d-flex flex-column col-2 col-md-2 flex-shrink-0 p-3 text-white bg-dark">
+            <ul class="nav flex-column aria-orientation ps-4">
+                <li class="nav-item pb-4">
+                    <a class="nav-link text-white text-decoration-none" href="#">
+                        <i class="fas fa-bolt"></i>
+                        <span>Spur</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-decoration-none active" aria-current="page" href="#">
+                        <i class="fas fa-home"></i>
+                        <span>Dashboard</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-decoration-none" href="#">
+                        <i class="fas fa-chart-bar"></i>
+                        <span>Charts</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-decoration-none" href="#">
+                        <i class="fas fa-cube"></i>
+                        <span>Components</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-decoration-none" href="#">
+                        <i class="far fa-file"></i>
+                        <span>Layouts</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white text-decoration-none" href="#">
+                        <i class="fas fa-info"></i>
+                        <span>About</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!--SIDEBAR-->
 
-            <div class="col-9 col-md-9 d-flex flex-column bg-light">
+        <div class="col-10 col-md-10 bg-white">
+            <div class="row">
                 <nav class="navbar align-items-start">
-                    <div>
-                    <i class="fas fa-search"></i>
-                </div>
-                    <form>
-                        <input class="form-control mr-sm-2" type="search" placeholder="type to search" aria-label="Search">
-                    </form>
+                    <div class="container justify-content-start">
+                        <span class="pe-4">
+                            <i class="fas fa-bars"></i>
+                        </span>
+                        <span class="pe-4">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        <form class="pt-3">
+                            <input class="form-control mr-sm-2 border-0 bg-white" type="search" placeholder="type to search" aria-label="Search">
+                        </form>
+                    </div>
                 </nav>
+                <!--NAVBAR-->  
+
+                <div class="bg-light pt-3 ps-4 pb-4">
+                    <div class="row align-items-start">
+                        <div class="col-4 col-md-4">
+                            <div class="bg-primary p-4">
+                                <h4 class="text-white">Sign ups</h4>
+                                <div class="offset-10">
+                                    <h2 class="text-white pt-3">114</h2>
+                                </div>
+                                <div class="d-flex">
+                                    <span class=" align-self-center">
+                                        <i class="fas fa-user text-white pe-2"></i>
+                                    </span>
+                                    <span class="text-white offset-5">+25% from last month</span>
+                                </div>
+                            </div>
+                        </div>
+                        <!--SIGN UPS-->
+                        <div class="col-4 col-md-4">
+                            <div class="bg-success p-4">
+                                <h4 class="text-white">Revenue</h4>
+                                <div class="offset-8">
+                                    <h2 class="text-white pt-3">$25,541</h2>
+                                </div>
+                                <div class="d-flex">
+                                    <span class="align-self-center">
+                                        <i class="fas fa-cart-arrow-down text-white pe-1"></i>
+                                    </span>
+                                    <span class="text-white offset-5">+17,5% from last month</span>
+                                </div>
+                            </div>       
+                        </div>
+                        <!--REVENUE-->                                      
+                        <div class="col-4 col-md-4">
+                            <div class="bg-danger pt-4 pe-4 ps-4 pb-2">
+                                <h4 class="text-white pb-5">Open tickets</h4>
+                                <div class="d-flex pt-2">
+                                    <span class="align-self-center">
+                                        <i class="fas fa-phone text-white"></i>
+                                    </span>  
+                                    <h2 class=" offset-11 text-white">5</h2>
+                                </div>
+                            </div>
+                        <!--OPEN TICKETS-->           
+                      </div>
+                    
+
+                </div>
+            
             </div>
-        </div>    
+
+
+        </div>
+        </div>
+
+
+
     </div>
 
 
